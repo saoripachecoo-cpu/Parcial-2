@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: linear-gradient(to right, #fa99d8, #d841da);
+
+}
+
+main {
+    width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+Hola {
+margin-top: 20px;
+
+} 
+
+fila{
+    display: flex;
+    gap: 40px;
+
+}
+
+fila div {
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"]  
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f9d8e1;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+genero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+genero label{
+    font-weight: normal;
+
+}
+
+button {
+    background-color: linear-gradient(to right, #fa99d8, #d841da);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
